@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tank Trouble JS</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="tank.js"></script>
+        <script src="maze.js"></script>
+    </head>
+    <body>
+        <div class="radio">
+            <input type="radio" name="players" value="1" id="1-player" checked></input>
+            <label for="1-player">1 Player (vs. Belka)</label>
+            <input type="radio" name="players" value="2" id="2-player"></input>
+            <label for="2-player">2 Player</label>
+            <input type="radio" name="players" value="3" id="3-player"></input>
+            <label for="3-player">3 Player</label>
+        </div>
+        <div>
+            <input type="button" value="Start Game!" id="start"></input>
+        </div>
+
+        <canvas id="c"></canvas>
+
+        <!-- After page load, lol-->
+        <script src="game.js"></script>
+    </body>
+</html>
